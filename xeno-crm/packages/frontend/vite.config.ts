@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:3001',
+        target: 'https://crm-project-6r65.vercel.app/',
         changeOrigin: true,
       },
     },
