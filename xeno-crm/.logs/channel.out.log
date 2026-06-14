@@ -1,0 +1,228 @@
+📡 Channel Service (simulator) running on port 3002
+::ffff:127.0.0.1 - - [14/Jun/2026:04:10:12 +0000] "GET /health HTTP/1.1" 200 82 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8655"
+::ffff:127.0.0.1 - - [14/Jun/2026:04:32:29 +0000] "GET /health HTTP/1.1" 200 82 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8655"
+[ChannelService] Received send request {
+  communicationId: '06c67972-800c-4331-ae86-22a8f979dc72',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9193184***'
+}
+[ChannelService] Simulating delivery for 06c67972-800c-4331-ae86-22a8f979dc72 via whatsapp
+::1 - - [14/Jun/2026:04:46:46 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '4aad6d59-cf9c-40d6-849b-a747a9f38a4d',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9172047***'
+}
+[ChannelService] Simulating delivery for 4aad6d59-cf9c-40d6-849b-a747a9f38a4d via whatsapp
+::1 - - [14/Jun/2026:04:46:46 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '7218bffc-b27f-4712-8d17-8bc9cdfc8b48',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9189150***'
+}
+[ChannelService] Simulating delivery for 7218bffc-b27f-4712-8d17-8bc9cdfc8b48 via whatsapp
+::1 - - [14/Jun/2026:04:46:46 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '5f1b2fae-89e9-4c0f-80a3-ca617189631a',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9170172***'
+}
+[ChannelService] Simulating delivery for 5f1b2fae-89e9-4c0f-80a3-ca617189631a via whatsapp
+::1 - - [14/Jun/2026:04:46:46 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '605e4dc3-339f-4e47-a349-396efa1b1d94',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9185097***'
+}
+[ChannelService] Simulating delivery for 605e4dc3-339f-4e47-a349-396efa1b1d94 via whatsapp
+::1 - - [14/Jun/2026:04:46:46 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '36ede478-0516-4c9d-8a07-2e816bd9c410',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9173431***'
+}
+[ChannelService] Simulating delivery for 36ede478-0516-4c9d-8a07-2e816bd9c410 via whatsapp
+::1 - - [14/Jun/2026:04:46:46 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '0967624c-7c94-4816-a1e5-2d84ff0273ca',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9177172***'
+}
+[ChannelService] Simulating delivery for 0967624c-7c94-4816-a1e5-2d84ff0273ca via whatsapp
+::1 - - [14/Jun/2026:04:46:46 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '79f91ade-bd32-4294-826d-96d6b9abdf89',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9192938***'
+}
+[ChannelService] Simulating delivery for 79f91ade-bd32-4294-826d-96d6b9abdf89 via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '507bc105-c6eb-4944-bac0-c72e29b2c3dc',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9195514***'
+}
+[ChannelService] Simulating delivery for 507bc105-c6eb-4944-bac0-c72e29b2c3dc via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: 'f93d4073-d980-4ebf-a7f9-e2dfad24c583',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9185485***'
+}
+[ChannelService] Simulating delivery for f93d4073-d980-4ebf-a7f9-e2dfad24c583 via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '0731d61f-ae58-45c9-a9c2-ed2c12ab220e',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9184761***'
+}
+[ChannelService] Simulating delivery for 0731d61f-ae58-45c9-a9c2-ed2c12ab220e via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: 'bf93f2a9-c033-464a-b7a4-0ccf2859779a',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9185582***'
+}
+[ChannelService] Simulating delivery for bf93f2a9-c033-464a-b7a4-0ccf2859779a via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: 'e399ab76-1de8-48bb-8cc2-0a8fcbf916fe',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9188256***'
+}
+[ChannelService] Simulating delivery for e399ab76-1de8-48bb-8cc2-0a8fcbf916fe via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: 'bbf52534-4c04-4529-857f-85ba8c306f9e',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9182011***'
+}
+[ChannelService] Simulating delivery for bbf52534-4c04-4529-857f-85ba8c306f9e via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '84f73e03-86cd-4bfe-9930-86501b1b4958',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9177095***'
+}
+[ChannelService] Simulating delivery for 84f73e03-86cd-4bfe-9930-86501b1b4958 via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '67fbfae8-4bc8-494f-b422-e68355e03834',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9180920***'
+}
+[ChannelService] Simulating delivery for 67fbfae8-4bc8-494f-b422-e68355e03834 via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '84eb3769-cc92-4ce5-89d1-67126c21bd0d',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9197781***'
+}
+[ChannelService] Simulating delivery for 84eb3769-cc92-4ce5-89d1-67126c21bd0d via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '915183a9-4db0-422c-aba0-477bb610bda5',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9173798***'
+}
+[ChannelService] Simulating delivery for 915183a9-4db0-422c-aba0-477bb610bda5 via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: 'fab85540-ac2b-423d-8642-6f9d78bfe3f2',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9190497***'
+}
+[ChannelService] Simulating delivery for fab85540-ac2b-423d-8642-6f9d78bfe3f2 via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: 'bdda4f23-8be9-4d6a-9036-3b547486bbb8',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9185669***'
+}
+[ChannelService] Simulating delivery for bdda4f23-8be9-4d6a-9036-3b547486bbb8 via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '31bab159-1c2d-4cfe-8bf6-d5d8b4657492',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9176676***'
+}
+[ChannelService] Simulating delivery for 31bab159-1c2d-4cfe-8bf6-d5d8b4657492 via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '6791e7f5-8b39-4419-96ed-fd2b05c0f40a',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9183026***'
+}
+[ChannelService] Simulating delivery for 6791e7f5-8b39-4419-96ed-fd2b05c0f40a via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '2443758f-ddd1-4d9c-88a8-b05733921ac4',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9186731***'
+}
+[ChannelService] Simulating delivery for 2443758f-ddd1-4d9c-88a8-b05733921ac4 via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '10899a74-239a-4642-8d8a-fbfb6fdd8e29',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9180634***'
+}
+[ChannelService] Simulating delivery for 10899a74-239a-4642-8d8a-fbfb6fdd8e29 via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: 'fbf87cf7-7248-4511-9e9f-647f5eede6e9',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9191459***'
+}
+[ChannelService] Simulating delivery for fbf87cf7-7248-4511-9e9f-647f5eede6e9 via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: 'e78c1c25-8b1d-4635-8af8-03a0d5dd02c3',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9195935***'
+}
+[ChannelService] Simulating delivery for e78c1c25-8b1d-4635-8af8-03a0d5dd02c3 via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: 'd7b3a4f9-51f0-412e-8b2f-71acde7a9ba8',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9189395***'
+}
+[ChannelService] Simulating delivery for d7b3a4f9-51f0-412e-8b2f-71acde7a9ba8 via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+[ChannelService] Received send request {
+  communicationId: '3006e911-f68b-428b-bf90-42c7979e2fe0',
+  campaignId: '8588f1af-5707-4e4f-9a15-dd531f502c08',
+  channel: 'whatsapp',
+  recipient: '+9198587***'
+}
+[ChannelService] Simulating delivery for 3006e911-f68b-428b-bf90-42c7979e2fe0 via whatsapp
+::1 - - [14/Jun/2026:04:46:47 +0000] "POST /api/channel/send HTTP/1.1" 202 133 "-" "axios/1.17.0"
+::ffff:127.0.0.1 - - [14/Jun/2026:09:11:42 +0000] "GET /health HTTP/1.1" 200 82 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.26100.8655"

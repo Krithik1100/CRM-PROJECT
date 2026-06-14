@@ -1,0 +1,23 @@
+
+> frontend@1.0.0 dev
+> vite --host 127.0.0.1
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m627[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m9:48:11 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css, /src/pages/Analytics.tsx, /src/pages/Customers.tsx, /src/pages/CampaignDetail.tsx, /src/pages/Campaigns.tsx, /src/pages/Segments.tsx, /src/pages/CampaignCopilot.tsx[22m
+[2m9:48:21 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Campaigns.tsx, /src/index.css[22m
+[2m9:48:34 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/CampaignDetail.tsx, /src/index.css[22m
+[2m9:48:41 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css[22m
+[2m9:52:41 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css[22m
+[2m9:56:14 am[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/Dashboard.tsx, /src/index.css[22m
+[2m2:49:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/CampaignDetail.tsx, /src/index.css[22m
+[2m2:49:43 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.tsx, /src/index.css[22m
+[2m2:55:33 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m2:55:34 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m2:55:36 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m2:55:44 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m2:55:47 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m2:55:51 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m2:55:53 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
