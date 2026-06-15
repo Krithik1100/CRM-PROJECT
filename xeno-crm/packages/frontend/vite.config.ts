@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://crm-project-6r65.vercel.app/',
+        target: 'https://crm-backend-jasc.onrender.com',
         changeOrigin: true,
       },
     },

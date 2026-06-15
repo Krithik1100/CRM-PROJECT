@@ -1,7 +1,13 @@
 import axios from 'axios';
 
+const configuredApiUrl = import.meta.env.VITE_API_URL?.replace(/\/+$/, '');
+const isFrontendOrigin =
+  typeof window !== 'undefined' &&
+  configuredApiUrl &&
+  configuredApiUrl === window.location.origin;
+
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || '/api',
+  baseURL: configuredApiUrl && !isFrontendOrigin ? configuredApiUrl : '/api',
   timeout: 60000,
   headers: { 'Content-Type': 'application/json' },
 });

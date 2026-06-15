@@ -17,9 +17,10 @@ const errorHandler_1 = require("./shared/middleware/errorHandler");
 const logger_1 = require("./shared/utils/logger");
 const app = (0, express_1.default)();
 const PORT = process.env.PORT || 3001;
+const frontendOrigin = process.env.FRONTEND_URL?.replace(/\/+$/, '') || '*';
 // Middleware
 app.use((0, cors_1.default)({
-    origin: process.env.FRONTEND_URL || '*',
+    origin: frontendOrigin,
     credentials: true,
 }));
 app.use(express_1.default.json({ limit: '10mb' }));

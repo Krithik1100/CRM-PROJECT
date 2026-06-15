@@ -15,10 +15,11 @@ import { logger } from './shared/utils/logger';
 
 const app = express();
 const PORT = process.env.PORT || 3001;
+const frontendOrigin = process.env.FRONTEND_URL?.replace(/\/+$/, '') || '*';
 
 // Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_URL || '*',
+  origin: frontendOrigin,
   credentials: true,
 }));
 app.use(express.json({ limit: '10mb' }));
