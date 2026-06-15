@@ -27,6 +27,21 @@ app.use(morgan('combined', {
 }));
 
 // Health check
+app.get('/', (_, res) => {
+  res.json({
+    service: 'KK CRM Backend',
+    status: 'running',
+    health: '/health',
+    api: {
+      customers: '/api/customers',
+      segments: '/api/segments',
+      campaigns: '/api/campaigns',
+      analytics: '/api/analytics/overview',
+      callbacks: '/api/callbacks/communication-event',
+    },
+  });
+});
+
 app.get('/health', (_, res) => {
   res.json({ status: 'ok', service: 'crm-backend', timestamp: new Date().toISOString() });
 });

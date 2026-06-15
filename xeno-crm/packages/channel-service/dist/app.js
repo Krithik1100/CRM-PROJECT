@@ -15,6 +15,16 @@ app.use((0, cors_1.default)());
 app.use(express_1.default.json());
 app.use((0, morgan_1.default)('combined'));
 // Health check
+app.get('/', (_, res) => {
+    res.json({
+        service: 'KK CRM Channel Service',
+        status: 'running',
+        type: 'stubbed-channel-service',
+        health: '/health',
+        sendEndpoint: 'POST /api/channel/send',
+        note: 'This service simulates delivery and posts callbacks to the CRM backend.',
+    });
+});
 app.get('/health', (_, res) => {
     res.json({ status: 'ok', service: 'channel-service', timestamp: new Date().toISOString() });
 });
